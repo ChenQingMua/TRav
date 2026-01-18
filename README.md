@@ -6,4 +6,4 @@
 本项目运用到了以下开源项目：
 | 名称 | 仓库地址 | 许可证 | 用途 |
 | --- | --- | --- | --- |
-| JSFuck | [aemkei/jsfuck](https://github.com/aemkei/jsfuck) | [WTFPL](https://github.com/aemkei/jsfuck/blob/master/LICENSE) | 将任意 JS 源码编译为仅含 `[]()!+` 六个字符的等效代码。 |
+| JSFuck | [aemkei/jsfuck](https://github.com/aemkei/jsfuck) | [WTFPL](https://github.com/aemkei/jsfuck/blob/master/LICENSE.txt) | 将任意 JS 源码编译为仅含 `[]()!+` 六个字符的等效代码。 |
