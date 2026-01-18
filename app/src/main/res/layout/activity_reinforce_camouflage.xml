@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<ScrollView
+			android:fillViewport="true"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="top"
+				android:paddingBottom="70dp">
+
+				<LinearLayout
+					android:layout_marginTop="12dp"
+					android:layout_marginLeft="12dp"
+					android:layout_marginRight="12dp"
+					android:id="@+id/set_pro_option"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="#4A858585"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="bottom">
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:text="导入文件并开始加固"
+				android:layout_margin="12dp"
+				android:background="#FF0066FF"
+				android:textColor="#FFFFFFFF"
+				android:id="@+id/start_pro"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

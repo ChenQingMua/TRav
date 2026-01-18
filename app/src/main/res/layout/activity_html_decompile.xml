@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="bottom">
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:text="导入文件并开始解密"
+				android:layout_margin="12dp"
+				android:background="#FF0066FF"
+				android:textColor="#FFFFFFFF"
+				android:id="@+id/start_html_run"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="top">
+
+			<CheckBox
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="禁止运行时网页连接网络"
+				android:layout_marginTop="12dp"
+				android:layout_marginLeft="12dp"
+				android:layout_marginRight="12dp"
+				android:id="@+id/set_html_run_can_use_wifi"
+				android:background="#4A858585"/>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="12dp"
+				android:gravity="center"
+				android:background="#4A858585">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="将会动态模拟运行time秒"
+					android:id="@+id/get_html_run_time"/>
+
+				<SeekBar
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:id="@+id/set_html_run_time"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center">
+
+			<TextView
+				android:fontFamily="@font/kitten"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Hello Uesr"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"
+				android:gravity="center"
+				android:textSize="24sp"
+				android:id="@+id/title"/>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="20dp"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="10dp"
+				android:background="#4A858585"
+				android:id="@+id/android">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="5dp">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="安卓工具"
+						android:gravity="center"
+						android:textSize="18sp"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="免费"
+						android:gravity="center"
+						android:textSize="16sp"
+						android:layout_marginLeft="5dp"
+						android:textColor="#FFFFFFFF"
+						android:background="#FF0085FF"
+						android:padding="3dp"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="一键损坏应用包；特征伪加固。"
+					android:textSize="16sp"
+					android:padding="3dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="5dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="20dp"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="10dp"
+				android:background="#4A858585"
+				android:id="@+id/web">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="5dp">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="网页工具"
+						android:gravity="center"
+						android:textSize="18sp"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="免费"
+						android:gravity="center"
+						android:textSize="16sp"
+						android:layout_marginLeft="5dp"
+						android:textColor="#FFFFFFFF"
+						android:background="#FF0085FF"
+						android:padding="3dp"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="HTML动态解密；JS，HTML静态加密。"
+					android:textSize="16sp"
+					android:padding="3dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="5dp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
