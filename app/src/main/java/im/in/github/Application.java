@@ -38,7 +38,6 @@ public class Application extends Application {
     }
 
     private boolean detectBadEnv() {
-        /* 1. VPN */
         try {
             ConnectivityManager cm = (ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
             android.net.Network net = cm.getActiveNetwork();
